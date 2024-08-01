@@ -1,0 +1,46 @@
+body {
+  height: 100dvh;
+  background-image: url(./assets/fruits.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  header {
+    padding-top: 2dvh;
+
+    nav {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6dvw;
+
+        button {
+            background-color: transparent;
+            border: none;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        button:focus-within {
+            color: #ffffff;
+            background-color: #fc8585;
+            border-radius: 5px;
+        }
+    }
+}
+
+  main {
+    height: 100dvh;
+  }
+
+  footer {
+    padding: 5px;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    text-wrap: pretty;
+  }
+}
