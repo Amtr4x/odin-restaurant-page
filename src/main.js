@@ -1,4 +1,5 @@
 import displayHomeContent from "./home";
+import displayAboutContent from "./about";
 
 const menuBar = document.querySelector("nav");
 
@@ -13,7 +14,7 @@ menuBar?.addEventListener("click", (btn) => {
       console.log("menu");
       break;
     case "about-section":
-      console.log("about");
+      displayAboutContent();
       break;
   }
 });
