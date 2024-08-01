@@ -1,11 +1,13 @@
+import displayHomeContent from "./home";
+
 const menuBar = document.querySelector("nav");
 
-menuBar.addEventListener("click", (btn) => {
-  const pressedBtn = btn.target.id;
+menuBar?.addEventListener("click", (btn) => {
+  const pressedBtn = btn.target?.id;
 
   switch (pressedBtn) {
     case "home-section":
-      console.log("home");
+      displayHomeContent();
       break;
     case "menu-section":
       console.log("menu");
