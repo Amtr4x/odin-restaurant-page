@@ -3,6 +3,7 @@ import displayAboutContent from "./about";
 import displayMenuContent from "./menu";
 
 const menuBar = document.querySelector("nav");
+displayHomeContent();
 
 menuBar?.addEventListener("click", (btn) => {
   const pressedBtn = btn.target?.id;
