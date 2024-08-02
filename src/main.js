@@ -1,5 +1,6 @@
 import displayHomeContent from "./home";
 import displayAboutContent from "./about";
+import displayMenuContent from "./menu";
 
 const menuBar = document.querySelector("nav");
 
@@ -11,7 +12,7 @@ menuBar?.addEventListener("click", (btn) => {
       displayHomeContent();
       break;
     case "menu-section":
-      console.log("menu");
+      displayMenuContent();
       break;
     case "about-section":
       displayAboutContent();
