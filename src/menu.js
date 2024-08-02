@@ -33,7 +33,7 @@ const descriptions = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quas fugit.",
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, facere!",
 ];
-const productImgPath = "../assets/product.webp";
+const productImgPath = new URL("../assets/product.webp", import.meta.url).href;
 
 export default function displayMenuContent() {
   const main = document.querySelector("main");
