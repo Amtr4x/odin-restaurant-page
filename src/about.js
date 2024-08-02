@@ -2,6 +2,7 @@ export default function displayAboutContent() {
   const main = document.querySelector("main");
   main.innerHTML = "";
   const card = document.createElement("div");
+  card.id = "about-card"
   card.innerHTML = `
     <h1>About us</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.

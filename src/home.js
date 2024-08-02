@@ -2,6 +2,7 @@ export default function displayHomeContent() {
   const main = document.querySelector("main");
   main.innerHTML = "";
   const cardInfo = document.createElement("div");
+  cardInfo.id = "card-info"
   cardInfo.innerHTML = `
   <h1>Wild Desserts</h1>
   <h2>Schedule:</h2>

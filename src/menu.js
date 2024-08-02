@@ -29,7 +29,7 @@ const prices = [9.99, 3.99, 6.99, 2.99, 4.99];
 const descriptions = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus similique quasi unde.",
   "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eos illum maxime itaque impedit inventore quibusdam hic doloribus odit eius placeat explicabo aliquid tempora, deleniti non, iure reiciendis quas quis!",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eos",
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quas fugit.",
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, facere!",
 ];
@@ -44,8 +44,8 @@ export default function displayMenuContent() {
     card.innerHTML = `
       <div class="offer">
     <img src="${productImgPath}" alt="delicious dessert">
-    <div>
-      <div>
+    <div class="info-container">
+      <div class="offer-head">
         <h3>${offerNames[i]}</h3>
         <p>$ ${prices[i]}</p>
       </div>
